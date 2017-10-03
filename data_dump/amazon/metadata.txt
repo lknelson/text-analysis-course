@@ -1,0 +1,20 @@
+This is a dataset which contains amazon.com book reviews for the purpose of training a Sentiment Classifier. 
+There are 213.335 book reviews for 8 different books. There are books which are scored very negatively in general and books which are scored very positively. 
+
+Gone Girl: 41.974
+The Girl on the Train: 37.139
+The Fault in our Stars: 35.844
+Fifty Shades of Grey: 32.977
+Unbroken: 25.876
+The hunger games: 24.027
+The Goldfinch: 22.861
+The Martian: 22.571
+
+Each entry is separated by a newline character ('\n'). Each entry contains four attributes, which are separated by a space (' '):
+1. review score
+2. tail of review url (https://www.amazon.com+<tail>)
+3. review title
+4. HTML of review text 
+
+
+website: http://ataspinar.com/2016/01/21/sentiment-analysis-with-bag-of-words/
